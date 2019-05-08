@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Balise pour le responsive de bootstrap-->
+
+    <!-- Meta description -->
+    <meta name="description" content="Sokoban: le jeu de Super Bousier">
+    <meta name="author" content="Priscilla, Julien, Fabien et Bryan">
+    <meta name="keywords" content="Sokoban: le jeu de Super Bousier">
+
+    <!-- META Twitter -->
+    <meta name="twitter:title" content="Twitter">
+    <meta name="twitter:description" content="compte twitter">
+    <meta name="twitter:url" content="#">
+    <meta name="twitter:image:src" content="assets/pictures/pictures.jpg">
+
+    <!-- META FACEBOOK -->
+    <meta property="og:Facebook" content="Facebook">
+    <meta property="og:type" content="page Facebook">
+    <meta property="og:url" content="#">
+    <meta property="og:image" content="assets/pictures/pictures.jpg">
+
+    <!-- META INSTAGRAM -->
+
+    <meta property="og:Instagram" content="Instagram">
+    <meta property="og:type" content="compte Instagram">
+    <meta property="og:url" content="#">
+    <meta property="og:image" content="assets/pictures/pictures.jpg">
+
+    <!-- CSS : Fontaweome Bootstrap et lien vers CSS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Super Bousier ==> Niveau 2</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="niveau">
+
+    <h1>NIVEAU 2</h1>
+    <table class="sokoban_map2" cellspacing="0">
+        <tbody>
+            <tr>
+                <td id="b1" class="wall"></td>
+                <td id="b2" class="wall"></td>
+                <td id="b3" class="wall"></td>
+                <td id="b4" class="wall"></td>
+                <td id="b5" class="wall"></td>
+                <td id="b6" class="wall"></td>
+                <td id="b7" class="wall"></td>
+                <td id="b8" class="wall"></td>
+                <td id="b9" class="wall"></td>
+                <td id="b10" class="wall"></td>
+            </tr>
+            <tr>
+                <td id="b11" class="wall"></td>
+                <td id="b12" class="wall"></td>
+                <td id="b13" class="wall"></td>
+                <td id="b14" class="wall"></td>
+                <td id="b15" class="wall"></td>
+                <td id="b16" class="wall"></td>
+                <td id="b17" class="wall"></td>
+                <td id="b18" class="wall"></td>
+                <td id="b19" class="wall"></td>
+                <td id="b20" class="wall"></td>
+            </tr>
+            <tr>
+                <td id="b21" class="wall"></td>
+                <td id="b22" class="wall"></td>
+                <td id="b23" class="wall"></td>
+                <td id="b24" class="wall"></td>
+                <td id="b25" class="wall"></td>
+                <td id="b26" class="wall"></td>
+                <td id="b27" class="wall"></td>
+                <td id="b28" class="wall"></td>
+                <td id="b29" class="wall"></td>
+                <td id="b30" class="wall"></td>
+            </tr>
+            <tr>
+                <td id="b31" class="wall"></td>
+                <td id="b32" class="wall"></td>
+                <td id="b33" class="empty"></td>
+                <td id="b34" class="empty"></td>
+                <td id="b35" class="empty"></td>
+                <td id="b36" class="empty"></td>
+                <td id="b37" class="empty"></td>
+                <td id="b38" class="wall"></td>
+                <td id="b39" class="wall"></td>
+                <td id="b40" class="wall"></td>
+            </tr>
+            <tr>
+                <td id="b41" class="wall"></td>
+                <td id="b42" class="wall"></td>
+                <td id="b43" class="empty">
+                    <div class="slider"></div>
+                </td>
+                <td id="b44" class="wall"></td>
+                <td id="b45" class="wall"></td>
+                <td id="b46" class="wall"></td>
+                <td id="b47" class="empty"></td>
+                <td id="b48" class="empty"></td>
+                <td id="b49" class="empty"></td>
+                <td id="b50" class="wall"></td>
+            </tr>
+            <tr>
+                <td id="b51" class="wall"></td>
+                <td id="b52" class="empty"></td>
+                <td id="b53" class="empty">
+                    <div class="player"></div>
+                </td>
+                <td id="b54" class="empty"></td>
+                <td id="b55" class="empty">
+                    <div class="slider"></div>
+                </td>
+                <td id="b56" class="empty"></td>
+                <td id="b57" class="empty"></td>
+                <td id="b58" class="empty">
+                    <div class="slider"></div>
+                </td>
+                <td id="b59" class="empty"></td>
+                <td id="b60" class="wall"></td>
+            </tr>
+            <tr>
+                <td id="b61" class="wall"></td>
+                <td id="b62" class="empty"></td>
+                <td id="b63" class="exit"></td>
+                <td id="b64" class="exit"></td>
+                <td id="b65" class="wall"></td>
+                <td id="b66" class="empty"></td>
+                <td id="b67" class="empty">
+                    <div class="slider"></div>
+                </td>
+                <td id="b68" class="empty"></td>
+                <td id="b69" class="wall"></td>
+                <td id="b70" class="wall"></td>
+            </tr>
+            <tr>
+                <td id="b71" class="wall"></td>
+                <td id="b72" class="wall"></td>
+                <td id="b73" class="exit"></td>
+                <td id="b74" class="exit"></td>
+                <td id="b75" class="wall"></td>
+                <td id="b76" class="empty"></td>
+                <td id="b77" class="empty"></td>
+                <td id="b78" class="empty"></td>
+                <td id="b79" class="wall"></td>
+                <td id="b80" class="wall"></td>
+            </tr>
+            <tr>
+                <td id="b81" class="wall"></td>
+                <td id="b82" class="wall"></td>
+                <td id="b83" class="wall"></td>
+                <td id="b84" class="wall"></td>
+                <td id="b85" class="wall"></td>
+                <td id="b86" class="wall"></td>
+                <td id="b87" class="wall"></td>
+                <td id="b88" class="wall"></td>
+                <td id="b89" class="wall"></td>
+                <td id="b90" class="wall"></td>
+            </tr>
+            <tr>
+                <td id="b91" class="wall"></td>
+                <td id="b92" class="wall"></td>
+                <td id="b93" class="wall"></td>
+                <td id="b94" class="wall"></td>
+                <td id="b95" class="wall"></td>
+                <td id="b96" class="wall"></td>
+                <td id="b97" class="wall"></td>
+                <td id="b98" class="wall"></td>
+                <td id="b99" class="wall"></td>
+                <td id="b100" class="wall"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="niveau_3.html" class="alternate">
+        <button>SUIVANT</button>
+    </a>
+    <button id="recommencer">RESET</button>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
